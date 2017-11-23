@@ -1,0 +1,17 @@
+
+    Styling Reference for the Hamilton Conference Center
+    Author: Harley Toribio
+    Date: 11.22.17
+
+    Filename: reference.txt
+
+
+Font Choices:
+Heading Texts: Fugaz One - Google Fonts
+Basic Text: Jaldi - Google Fonts
+
+Color Scheme:
+#78C5D0 - Cyan Blue
+
+
+Images:

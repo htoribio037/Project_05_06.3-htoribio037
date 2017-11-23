@@ -1,0 +1,51 @@
+/*
+   Hamilton Conference Center Style Sheet
+   Author: Harley Toribio
+   Date: 11.22.17
+
+   Filename: hcc_styles.css
+   Supporting files:
+
+*/
+
+/*Basic*/
+
+/*Typographical Styles*/
+
+header h1{
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+  letter-spacing: 1.2px;
+}
+
+body{
+  font-family: 'Jaldi', sans-serif;
+}
+
+a{
+  font-family: 'Jaldi', sans-serif;
+  color: black;
+}
+
+/*Decoration Styles*/
+
+hr{
+  width: 40%;
+  border: 1px solid #78C5D0;
+  margin-top: -33px;
+}
+
+/*Links*/
+
+header nav#nav a{
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0px 5px 0px 5px;
+}
+
+/*Table Styles*/
+
+/*Mobile Devices: MAX 640px*/
+
+/*Tablet/Desktop Devices: MIN 641px*/

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <!--
+      Hamilton Conference Center Room Schedule
+      Author: Harley Toribio
+      Date: 11.22.17
+
+      Filename: index.html
+
+   -->
+
+   <!-- Links to CSS stylesheets -->
+   <link rel="stylesheet" href="hcc_styles.css" />
+   <link rel="stylesheet" href="hcc_schedule.css" />
+   <!-- Links to all icons and fonts (Fontawesome and Google Fonts) -->
+   <link href="https://fonts.googleapis.com/css?family=Fugaz+One|Jaldi|Limelight" rel="stylesheet">
+   <!-- This is the title of the page that will appear within the tab when the file is opened. -->
+   <title>Hamilton Conference Center</title>
+</head>
+
+<body>
+   <!-- This header will contain a single h1 element to display as a large heading on the page. -->
+   <header>
+      <h1>Hamilton Conference Center - Booking Page</h1>
+      <hr />
+      <!-- This is the start of the navigation element that will contain 9 different links. All links were sourced from the hcc_rooms.txt file included within the project folder. -->
+      <nav id="nav">
+         <ul>
+            <!-- Each li element is nested within an anchor tag to make it a hypertext link. None will have an actual link so within the href attribute there is a #. -->
+            <a href="#"><li>Home Page</li></a>
+            <a href="#"><li>Reservations</li></a>
+            <a href="#"><li>Facilities</li></a>
+            <a href="#"><li>Virtual Tour</li></a>
+            <a href="#"><li>Staff</li></a>
+            <a href="#"><li>Calendar of Events</li></a>
+            <a href="#"><li>Contact Info</li></a>
+            <a href="#"><li>Directions</li></a>
+            <a href="#"><li>FAQ</li></a>
+         </ul>
+      </nav>
+   </header>
+   <h3>Reservations for Conference Rooms</h3>
+   <table class="schedule">
+      <!-- Caption that will appear above the following table to help viewers identify the content of the table. -->
+      <caption>Current Bookings & Schedule - Tuesday, April 10th</caption>
+      <!-- This column group contains a single column style with the id of weekdays.  -->
+      <colgroup>
+         <col span="7" id="weekdays">
+      </colgroup>
+      <!-- This begins the thead. It contains 7 th elements, each with a name of a room available at the Hamilton Conference Center.-->
+      <thead>
+         <th>Sunrise Room</th>
+         <th>Mountain View Room</th>
+         <th>Arbor Hall</th>
+         <th>Mitchell Theater</th>
+         <th>Gold Room</th>
+         <th>Blue Room</th>
+         <th>Green Room</th>
+         <!-- This ends the thead element. -->
+      </thead>
+      <!-- Beginning of table footer -->
+      <tfoot>
+         <td span='8'> * To reserve a room, please contact Yancy Inwe at extension 388 or by e-mail at <a href="mailto:yancyinw@hconfcenter.org">yancyinwe@hconfcenter.org</a>.
+         Reservations should be made at least 48 hours in advance. Cancellations require 24 hour notice. Room deposits will
+         not be returned for cancellations within 24 hours of the scheduled event.</td>
+         <!-- End of table footer. -->
+      </tfoot>
+
+      <!-- Start of the tbody which will contain various rows and columns. -->
+      <tbody>
+         <tr>
+            <th id="times">Times</th>
+         </tr>
+         <!-- This is the third table row within the tbody. This row will contain a single th element that includes text to identify the time of day and 8 others that state the events happening in the morning - all of which are nested within a table cell element. -->
+         <tr>
+            <td>
+            <th>Morning</th>
+            <td>Marriage Encounter</td>
+            <td>Breakfast Club of Ohio</td>
+            <td>Computer Expo Setup</td>
+            <td>Available Until 3 PM</td>
+            <td>The Tompkins Group & Pearson Planning</td>
+            <td>Retirement Planning & The Senior Group</td>
+            <td>Drivers' Ed</td>
+         </td>
+         </tr>
+         <!-- This is the third table row within the tbody. This row will contain a single th element that includes text to identify the time of day and 8 others that state the events happening in the morning - all of which are nested within a table cell element. -->
+         <tr>
+            <th>Afternoon</th>
+            <td>Marriage Encounter Luncheon</td>
+            <td>Ohio Conference of Librarians</td>
+            <td>Computer Expo Opening Session</td>
+            <td>Youth Theatre</td>
+            <td>Mothers of Multiples</td>
+            <td>Senior Luncheon</td>
+            <td>Movie Club</td>
+         </tr>
+         <!-- This is the third table row within the tbody. This row will contain a single th element that includes text to identify the time of day and 8 others that state the events happening in the morning - all of which are nested within a table cell element. -->
+         <tr>
+            <th>Evening</th>
+            <td>Marriage Encounter Talks</td>
+            <td>Ohio Book Resale Setup</td>
+            <td>Mid. Computer Expo</td>
+            <td>Mid. Mothers of Multiples</td>
+            <td>Teen Connection</td>
+            <td>Senior Classes & Tutoring</td>
+            <td>Tutoring</td>
+         </tr>
+      </tbody>
+   </table>
+
+
+</body>
+</html>
